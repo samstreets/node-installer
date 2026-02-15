@@ -6,7 +6,37 @@
     "persistent": true
   },
   {
-    "path": "/wfs/bin",
+    "path": "/services/greencloud",
+    "owner": "0:0",
+    "permissions": "755",
+    "persistent": false
+  },
+  {
+    "path": "/services/greencloud/tmp",
+    "owner": "0:0",
+    "permissions": "755",
+    "persistent": false
+  },
+  {
+    "path": "/services/greencloud/usr",
+    "owner": "0:0",
+    "permissions": "755",
+    "persistent": false
+  },
+  {
+    "path": "/services/greencloud/usr/local",
+    "owner": "0:0",
+    "permissions": "755",
+    "persistent": false
+  },
+  {
+    "path": "/services/greencloud/usr/local/bin",
+    "owner": "0:0",
+    "permissions": "755",
+    "persistent": false
+  },
+  {
+    "path": "/services_rw/greencloud",
     "owner": "0:0",
     "permissions": "755",
     "persistent": true
@@ -20,6 +50,7 @@
   {
     "path": "/etc/containerd",
     "owner": "0:0",
-    "permissions": "755"
+    "permissions": "755",
+    "persistent": false
   }
 ]
