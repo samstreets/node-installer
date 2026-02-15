@@ -21,35 +21,35 @@
     "strip": false
   },
   {
-    "source": "input/all/etc/systemd/system/.*\\.service$",
+    "source": "etc/systemd/system/.*\\.service$",
     "destination": "/etc/systemd/system",
     "owner": "0:0",
     "permissions": "644",
     "strip": false
   },
   {
-    "source": "input/all/usr/local/bin/greencloud-register$",
+    "source": "usr/local/bin/greencloud-register$",
     "destination": "/usr/local/bin",
     "owner": "0:0",
     "permissions": "755",
     "strip": false
   },
   {
-    "source": "input/all/greencloud-config-sync\\.sh$",
+    "source": "greencloud-config-sync\\.sh$",
     "destination": "/services/greencloud",
     "owner": "0:0",
     "permissions": "755",
     "strip": false
   },
   {
-    "source": "input/all/usr/local/bin/gcnode$",
+    "source": "usr/local/bin/gcnode$",
     "destination": "/services/greencloud/usr/local/bin",
     "owner": "0:0",
     "permissions": "755",
     "strip": true
   },
   {
-    "source": "input/all/usr/local/bin/gccli$",
+    "source": "usr/local/bin/gccli$",
     "destination": "/services/greencloud/usr/local/bin",
     "owner": "0:0",
     "permissions": "755",

@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "all/usr/local/bin/gcnode"
+  },
+  {
+    "source": "all/usr/local/bin/gccli"
+  },
+  {
+    "source": "all/usr/local/bin/greencloud-register"
+  },
+  {
+    "source": "all/greencloud-config-sync.sh"
+  },
+  {
+    "source": "all/etc/systemd/system/containerd.service"
+  },
+  {
+    "source": "all/etc/systemd/system/gcnode.service"
+  }
+]
