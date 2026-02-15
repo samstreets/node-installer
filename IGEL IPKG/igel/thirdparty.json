@@ -1,12 +1,12 @@
 [
   {
-    "url": "",
-    "dest": "",
+    "url": "https://github.com/containerd/containerd/releases/download/v1.7.13/containerd-1.7.13-linux-amd64.tar.gz",
+    "dest": "tmp/containerd.tgz",
     "licenses": [
       {
-        "name": "",
-        "text": "",
-        "file": ""
+        "name": "Apache-2.0",
+        "text": "Licensed under the Apache License, Version 2.0",
+        "file": "https://raw.githubusercontent.com/containerd/containerd/main/LICENSE"
       }
     ]
   }
